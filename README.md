@@ -16,3 +16,7 @@ https://www.openmediavault.org/download.html
 sudo apt install wireguard
 ```
 
+### Sources
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-debian-11
+
