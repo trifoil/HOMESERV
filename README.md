@@ -20,11 +20,7 @@ Once it is done, you can log in with the username ```admin``` and password ```op
 Update your server 
 
 ```
-sudo apt update && apt upgrade -y
-```
-
-```
-sudo apt install wireguard -y
+sudo apt update && apt upgrade && apt install wireguard -y
 ```
 
 ### Sources
