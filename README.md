@@ -46,6 +46,17 @@ Copy the output where you can find it, because it is the pubkey to connect to th
 
 ### IPV4 and IPV6 setup
 
+
+### Wireguard Server Configuration File creation
+
+
+### Wireguard's Server's Configuration
+
+
+### Wireguard's Server's Firewall Configuration
+
+
+
 ### Sources
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-debian-11
