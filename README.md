@@ -16,6 +16,11 @@ Burn it on a usb stick, and install it on your machine.
 Once it is done, you can log in with the username ```admin``` and password ```openmediavault```
 
 ### Install wireguard
+
+Update your server 
+
+```sudo apt update && apt upgrade -y```
+
 ```
 sudo apt install wireguard -y
 ```
