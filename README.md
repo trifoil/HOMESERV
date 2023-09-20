@@ -11,6 +11,11 @@ Download the ISO from the official website :
 
 https://www.openmediavault.org/download.html
 
+### Install wireguard
+```
+sudo apt install wireguard
+```
+
 ### Install docker 
 Install curl :
 
