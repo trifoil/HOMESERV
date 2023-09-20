@@ -3,9 +3,13 @@ Home server with vpn
 
 ## Objectives
 
-## How to 
+Homeserver install for a small amount of users 
 
-### Install OMV6
+* OpenMediaVault
+* Wireguard
+* Home Assistant
+
+## Install OMV6
 
 Download the ISO from the official website :
 
@@ -54,6 +58,16 @@ Copy the output where you can find it, because it is the pubkey to connect to th
 
 
 ### Wireguard's Server's Firewall Configuration
+
+
+### Wireguard peer configuration
+
+
+### Adding Peer' Pubkey to the WireGuard Server
+
+
+### Wireguard Peer Connection to the Tunnel
+
 
 
 
