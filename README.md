@@ -23,7 +23,7 @@ Update your server and install wireguard :
 sudo apt update && apt upgrade && apt install wireguard -y
 ```
 
-Using the built-in commands, create a private and public key pair for the server :
+Create a private key for the server :
 ```
 wg genkey | sudo tee /etc/wireguard/private.key
 ```
@@ -33,7 +33,11 @@ sudo chmod go= /etc/wireguard/private.key
 ```
 A copy of the output is also stored in the ```/etc/wireguard/private.key```
 
+Create a public key for the server :
+```
+sudo cat /etc/wireguard/private.key | wg pubkey | sudo tee /etc/wireguard/public.key
 
+```
 
 
 
