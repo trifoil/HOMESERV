@@ -5,8 +5,20 @@ Home server with vpn
 
 ## How to 
 
+### Install docker 
+Install curl :
+
+```
+sudo apt install curl -y
+```
+
+Install docker with curl :
 ```
 curl -sSL https://get.docker.com | bash
+```
+Make your user able to run without using sudo everytime (optional) :
+```
+sudo usermod -aG docker $(whoami)
 ```
 
 ## Sources
