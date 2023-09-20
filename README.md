@@ -23,6 +23,14 @@ Update your server and install wireguard :
 sudo apt update && apt upgrade && apt install wireguard -y
 ```
 
+Using the built-in commands, create a private and public key pair for the server :
+```
+wg genkey | sudo tee /etc/wireguard/private.key
+```
+Remove the users right on the keys (except root account)
+```
+sudo chmod go= /etc/wireguard/private.key
+```
 ### Sources
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-debian-11
