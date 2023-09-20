@@ -11,6 +11,10 @@ Download the ISO from the official website :
 
 https://www.openmediavault.org/download.html
 
+Burn it on a usb stick, and install it on your machine.
+
+Once it is done, you can log in with the username ```admin``` and password ```openmediavault```
+
 ### Install wireguard
 ```
 sudo apt install wireguard -y
