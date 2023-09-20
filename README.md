@@ -5,6 +5,12 @@ Home server with vpn
 
 ## How to 
 
+### Install OMV6
+
+Download the ISO from the official website :
+
+https://www.openmediavault.org/download.html
+
 ### Install docker 
 Install curl :
 
