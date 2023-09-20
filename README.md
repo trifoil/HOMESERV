@@ -36,7 +36,6 @@ A copy of the output is also stored in the ```/etc/wireguard/private.key```
 Create a public key for the server :
 ```
 sudo cat /etc/wireguard/private.key | wg pubkey | sudo tee /etc/wireguard/public.key
-
 ```
 
 
