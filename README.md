@@ -31,6 +31,13 @@ Remove the users right on the keys (except root account)
 ```
 sudo chmod go= /etc/wireguard/private.key
 ```
+copy of the output is also stored in the ```/etc/wireguard/private.key```
+
+
+
+
+
+
 ### Sources
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-debian-11
