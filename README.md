@@ -13,7 +13,7 @@ https://www.openmediavault.org/download.html
 
 ### Install wireguard
 ```
-sudo apt install wireguard
+sudo apt install wireguard -y
 ```
 
 ### Sources
