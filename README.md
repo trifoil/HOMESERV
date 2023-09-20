@@ -15,7 +15,7 @@ Burn it on a usb stick, and install it on your machine.
 
 Once it is done, you can log in with the username ```admin``` and password ```openmediavault```
 
-### Install wireguard
+### Install wireguard and create a key pair
 
 Update your server and install wireguard :
 
@@ -27,11 +27,11 @@ Create a private key for the server :
 ```
 wg genkey | sudo tee /etc/wireguard/private.key
 ```
-Remove the users right on the keys (except root account)
+Remove the users right on the keys (except root account) :
 ```
 sudo chmod go= /etc/wireguard/private.key
 ```
-A copy of the output is also stored in the ```/etc/wireguard/private.key```
+A copy of the output is also stored in the ```/etc/wireguard/private.key```.
 
 Create a public key for the server :
 ```
@@ -42,7 +42,9 @@ the ```|``` (pipe) operator chains the three commands that
 * takes the output from the first command as its standard input and processes it to generate a public key
 * takes the output of the public key generation command and redirects it into the file named /etc/wireguard/public.key
 
+Copy the output where you can find it, because it is the pubkey to connect to the server.
 
+### IPV4 and IPV6 setup
 
 ### Sources
 
