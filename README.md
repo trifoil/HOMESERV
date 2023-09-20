@@ -31,7 +31,7 @@ Remove the users right on the keys (except root account)
 ```
 sudo chmod go= /etc/wireguard/private.key
 ```
-copy of the output is also stored in the ```/etc/wireguard/private.key```
+A copy of the output is also stored in the ```/etc/wireguard/private.key```
 
 
 
