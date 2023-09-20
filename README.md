@@ -37,7 +37,10 @@ Create a public key for the server :
 ```
 sudo cat /etc/wireguard/private.key | wg pubkey | sudo tee /etc/wireguard/public.key
 ```
-
+the ```|``` (pipe) operator chains the three commands that 
+* reads the private key file and outputs it to the standard output stream
+* takes the output from the first command as its standard input and processes it to generate a public key
+* takes the output of the public key generation command and redirects it into the file named /etc/wireguard/public.key
 
 
 
