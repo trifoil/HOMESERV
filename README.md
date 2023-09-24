@@ -65,7 +65,11 @@ Copy the output where you can find it, because it is the pubkey to connect to th
 
 ### IPV4 and IPV6 setup
 
+Follow both steps if both needed 
 
+1) If you want to use IPv4
+   
+3) If you want to use IPv6
 
 ### Wireguard Server Configuration File creation
 
