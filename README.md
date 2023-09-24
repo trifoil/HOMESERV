@@ -24,6 +24,14 @@ Once it is done, you can log in with the username ```admin``` and password ```op
 
 ![image1](assets/images/loginscreen.png)
 
+You can setup different accounts that will be able to use your server. 
+
+You also can set up the partitions that you will use to store data.
+
+You can use Gparted if like me you only had one drive available on your machine and forgot to leave an empty partition.
+
+Once it is done, you can go to the next step.
+
 ## Setup WireGuard
 
 ### Install wireguard and create a key pair
