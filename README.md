@@ -3,7 +3,7 @@ Home server with vpn
 
 ## Objectives
 
-Homeserver install for a small amount of users 
+Homeserver with VPN install for a small amount of users, small NAS server.
 
 * OpenMediaVault
 * Wireguard
@@ -15,9 +15,12 @@ Download the ISO from the official website :
 
 https://www.openmediavault.org/download.html
 
-Burn it on a usb stick, and install it on your machine.
+Burn it on a usb stick (or boot it from the network), and install it on your machine.
 
-Once it is done, you can log in with the username ```admin``` and password ```openmediavault```
+Once it is done, you can log in with the username ```admin``` and password ```openmediavault``` :
+
+
+
 
 ### Install wireguard and create a key pair
 
@@ -49,6 +52,7 @@ the ```|``` (pipe) operator chains the three commands that
 Copy the output where you can find it, because it is the pubkey to connect to the server.
 
 ### IPV4 and IPV6 setup
+
 
 
 ### Wireguard Server Configuration File creation
