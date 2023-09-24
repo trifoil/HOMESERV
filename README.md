@@ -75,7 +75,9 @@ Copy the output where you can find it, because it is the pubkey to connect to th
 
 ## Setup Home Assistant
 
-### Sources
+## Sources
+
+https://wiki.omv-extras.org/doku.php?id=omv6:new_user_guide
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-debian-11
 
