@@ -2,7 +2,7 @@
 
 
 # HOMESERV
-Home server with vpn
+Home server with VPN
 
 ## Objectives
 
