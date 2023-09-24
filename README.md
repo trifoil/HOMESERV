@@ -9,7 +9,7 @@ Homeserver with VPN install for a small amount of users, small NAS server.
 * Wireguard
 * Home Assistant
 
-## Install OMV6
+## Setup OMV6
 
 Download the ISO from the official website :
 
@@ -20,7 +20,7 @@ Burn it on a usb stick (or boot it from the network), and install it on your mac
 Once it is done, you can log in with the username ```admin``` and password ```openmediavault``` :
 
 
-
+## Setup WireGuard
 
 ### Install wireguard and create a key pair
 
