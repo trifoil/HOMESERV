@@ -19,6 +19,7 @@ Burn it on a usb stick (or boot it from the network), and install it on your mac
 
 Once it is done, you can log in with the username ```admin``` and password ```openmediavault``` :
 
+![image1](assets/images/loginscreen.png)
 
 ## Setup WireGuard
 
