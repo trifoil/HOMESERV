@@ -73,7 +73,7 @@ Copy the output where you can find it, because it is the pubkey to connect to th
 ### Wireguard Peer Connection to the Tunnel
 
 
-
+## Setup Home Assistant
 
 ### Sources
 
