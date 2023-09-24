@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-fr-red.svg)](https://github.com/heavymetalthings/FedOCCT/blob/main/README.fr.md)
+
+
 # HOMESERV
 Home server with vpn
 
